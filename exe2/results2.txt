@@ -1,0 +1,56 @@
+
+
+Input file is " ../files/34767-0.txt
+Entropia 1ª Ordem Markov:  2.5460277756348866
+
+
+Input file is " ../files/azores.poi
+Entropia 1ª Ordem Markov:  4.072475276232846
+
+
+Input file is " ../files/boat4.jpg
+Entropia 1ª Ordem Markov:  7.785389169603136
+
+
+Input file is " ../files/kodim23.png
+Entropia 1ª Ordem Markov:  7.803973645452153
+
+
+Input file is " ../files/lenac.bmp
+Entropia 1ª Ordem Markov:  6.7614398223930126
+
+
+Input file is " ../files/pg1000.txt
+Entropia 1ª Ordem Markov:  3.376408624741531
+
+
+Input file is " ../files/pg12579.txt
+Entropia 1ª Ordem Markov:  3.5966867253214603
+
+
+Input file is " ../files/pg2000.txt
+Entropia 1ª Ordem Markov:  3.2848947863752107
+
+
+Input file is " ../files/pg3333.docx
+Entropia 1ª Ordem Markov:  7.7298176189996815
+
+
+Input file is " ../files/pg3333.html
+Entropia 1ª Ordem Markov:  3.04102235158018
+
+
+Input file is " ../files/pg3333.txt
+Entropia 1ª Ordem Markov:  3.392401752977115
+
+
+Input file is " ../files/pg35688.txt
+Entropia 1ª Ordem Markov:  3.561971682340411
+
+
+Input file is " ../files/pg40409.txt
+Entropia 1ª Ordem Markov:  3.3934020975877224
+
+
+Input file is " ../files/progc
+Entropia 1ª Ordem Markov:  3.6033994112801797

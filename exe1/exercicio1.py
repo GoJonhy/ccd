@@ -33,6 +33,7 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputFileName = arg
 
+    print("\n")
     print ('Input file is "', inputFileName)
        
     # Obter ficheiro
@@ -86,7 +87,6 @@ def main(argv):
     # Extimativa entropia com base a distribuiçao
     entropy = entropyCount(sortedByteDict, byteTotal)
     # Indicaç~ao de resultados
-    print("\n")
     print("Entropia: ", entropy)
     print("Numero de Simbolos: ", len(sortedByteDict))
     print("Simbolos mais frequentes: ")
@@ -99,12 +99,10 @@ def main(argv):
         print(i,"º: ", int.from_bytes(k, "big") )
 
     # Subconjunto desejado, mais que 50%
-    print("\n")
     print("Subconjunto com mais que 50% de probabilidade: ", subConSym)
     print("Soma probabilidade: ", probSum/byteTotal*100, "%")
 
     # Compress~ao obtida
-    print("\n")
     print("Compress~ao obtida: ", compObtida)
 
 if __name__ == "__main__":

@@ -4,6 +4,18 @@ import sys, getopt, os
 import math
 
 
+# Calculo entropia passo
+def calcEntropy(line, lineTotal):
+    entropy = 0
+    index = 0
+    for state in line:
+        if(state != 0 and lineTotal != 0):
+            prob = (state/lineTotal)
+            entropy += prob * math.log(1/prob, 2)
+        index += 1
+    return entropy
+
+
 # Calculo de entropia para uma fonte de markov de 1 ordem
 def entropyCalc1Markov(byte2DArray):
     entropy = 0
@@ -27,7 +39,7 @@ def entropyCalc1Markov(byte2DArray):
     line = 0
     for v in countColum:
         if(v != 0 and countLines[line] != 0):
-            entropy += (v/counTotal) * math.log(1/(countLines[line]/counTotal), 2)
+            entropy += (v/counTotal) * calcEntropy(byte2DArray[line], countLines[line])
         line += 1
 
     return entropy
@@ -52,6 +64,7 @@ def main(argv):
         elif opt in ("-i", "--ifile"):
             inputFileName = arg
 
+    print("\n")
     print ('Input file is "', inputFileName)
 
     # Obter ficheiro
@@ -79,7 +92,6 @@ def main(argv):
     entropia = entropyCalc1Markov(byte2DArray)
 
     ### Resultados ###
-    print("\n")
     print("Entropia 1ª Ordem Markov: ", entropia)
 
 if __name__ == "__main__":

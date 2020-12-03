@@ -75,10 +75,15 @@ def main(argv):
 
     # Compresao obtida
     newSize = 0
-    for k,v in sortedByteDict:
-        count = v
-        newCode = selfInformation(count/byteTotal)
-        newSize += count*newCode
+    for k, count in sortedByteDict:
+        if(v != 0):
+            prob = count/byteTotal
+            newCode = math.ceil( selfInformation(prob) ) # bits
+            newSize += (count*newCode/8) # bytes
+       
+
+    print("size: ", byteTotal)
+    print("new: ", newSize)
     compObtida = byteTotal/newSize
         
 

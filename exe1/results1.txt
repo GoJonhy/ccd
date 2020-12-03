@@ -1,6 +1,8 @@
 
 
 Input file is " ../files/34767-0.txt
+size:  716288
+new:  418317.75
 Entropia:  4.315401270699738
 Numero de Simbolos:  155
 Simbolos mais frequentes: 
@@ -11,10 +13,12 @@ Simbolos mais frequentes:
 5 º:  132
 Subconjunto com mais que 50% de probabilidade:  [206, 207, 32]
 Soma probabilidade:  51.66259940135811 %
-Compress~ao obtida:  0.2317281608988941
+Compress~ao obtida:  1.712306016180284
 
 
 Input file is " ../files/azores.poi
+size:  2355200
+new:  1914887.75
 Entropia:  5.989950210128023
 Numero de Simbolos:  256
 Simbolos mais frequentes: 
@@ -25,10 +29,12 @@ Simbolos mais frequentes:
 5 º:  32
 Subconjunto com mais que 50% de probabilidade:  [0, 101, 97, 111, 32, 114, 105, 2, 110, 115, 116]
 Soma probabilidade:  50.061226222826086 %
-Compress~ao obtida:  0.16694629586555898
+Compress~ao obtida:  1.2299415461820151
 
 
 Input file is " ../files/boat4.jpg
+size:  286467
+new:  303063.375
 Entropia:  7.995271311753693
 Numero de Simbolos:  256
 Simbolos mais frequentes: 
@@ -39,10 +45,12 @@ Simbolos mais frequentes:
 5 º:  56
 Subconjunto com mais que 50% de probabilidade:  [60, 0, 32, 221, 56, 235, 227, 36, 237, 15, 30, 121, 120, 219, 112, 195, 135, 64, 243, 48, 14, 4, 174, 2, 1, 231, 129, 158, 34, 124, 8, 52, 101, 187, 16, 144, 67, 28, 63, 94, 215, 31, 241, 9, 7, 105, 188, 143, 117, 12, 226, 136, 238, 132, 114, 251, 128, 68, 116, 110, 183, 78, 146, 225, 17, 184, 178, 65, 151, 100, 58, 72, 193, 59, 97, 191, 211, 104, 79, 199, 66, 46, 3, 224, 185, 239, 25, 73, 170, 180, 246, 113, 77, 38, 69, 6, 118, 254, 119, 207, 35, 248, 111, 240, 186, 222, 19, 145, 50, 109, 167, 131, 26, 93, 242, 192, 80, 252, 18, 208]
 Soma probabilidade:  50.12584346539043 %
-Compress~ao obtida:  0.12507392945251533
+Compress~ao obtida:  0.9452379390944221
 
 
 Input file is " ../files/kodim23.png
+size:  557596
+new:  590930.125
 Entropia:  7.985652137578288
 Numero de Simbolos:  256
 Simbolos mais frequentes: 
@@ -53,10 +61,12 @@ Simbolos mais frequentes:
 5 º:  153
 Subconjunto com mais que 50% de probabilidade:  [34, 68, 170, 204, 153, 17, 85, 102, 136, 247, 251, 51, 238, 145, 84, 235, 219, 253, 221, 152, 243, 231, 115, 0, 76, 49, 187, 239, 36, 211, 125, 8, 245, 16, 82, 230, 57, 215, 179, 119, 109, 181, 50, 42, 74, 186, 205, 166, 89, 207, 189, 69, 223, 213, 155, 199, 206, 156, 137, 237, 255, 203, 72, 117, 98, 174, 162, 114, 127, 190, 143, 100, 169, 233, 214, 123, 171, 191, 41, 90, 173, 185, 132, 149, 60, 220, 158, 246, 73, 103, 147, 62, 138, 222, 175, 154, 25, 159, 106, 250, 32, 93, 35, 38, 64, 182, 121, 167, 254, 110, 164, 107, 168, 126, 249]
 Soma probabilidade:  50.21216077590227 %
-Compress~ao obtida:  0.1252245881453156
+Compress~ao obtida:  0.9435904118105335
 
 
 Input file is " ../files/lenac.bmp
+size:  786486
+new:  819974.375
 Entropia:  7.750805801491246
 Numero de Simbolos:  256
 Simbolos mais frequentes: 
@@ -67,10 +77,12 @@ Simbolos mais frequentes:
 5 º:  97
 Subconjunto com mais que 50% de probabilidade:  [92, 94, 96, 91, 97, 95, 99, 93, 89, 88, 90, 98, 103, 87, 100, 101, 86, 102, 83, 85, 105, 121, 81, 104, 124, 125, 79, 120, 84, 78, 76, 82, 117, 108, 75, 119, 113, 107, 123, 112, 77, 115, 116, 80, 71, 118, 63, 67, 65, 73, 106, 109, 126, 110, 128, 74, 111, 122, 69, 129, 70, 114, 72, 64, 127, 66, 68, 131, 62, 224, 221, 130, 207, 223, 205, 61]
 Soma probabilidade:  50.3797906129289 %
-Compress~ao obtida:  0.12901884340949435
+Compress~ao obtida:  0.959159242018996
 
 
 Input file is " ../files/pg1000.txt
+size:  580048
+new:  349824.625
 Entropia:  4.386005864491397
 Numero de Simbolos:  103
 Simbolos mais frequentes: 
@@ -81,10 +93,12 @@ Simbolos mais frequentes:
 5 º:  111
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 105, 111, 110]
 Soma probabilidade:  53.17473726312305 %
-Compress~ao obtida:  0.22799787116015632
+Compress~ao obtida:  1.6581108319633016
 
 
 Input file is " ../files/pg12579.txt
+size:  113480
+new:  72212.5
 Entropia:  4.600001336952018
 Numero de Simbolos:  113
 Simbolos mais frequentes: 
@@ -95,10 +109,12 @@ Simbolos mais frequentes:
 5 º:  115
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 105]
 Soma probabilidade:  51.78709904829045 %
-Compress~ao obtida:  0.21739124116485686
+Compress~ao obtida:  1.5714730829150079
 
 
 Input file is " ../files/pg2000.txt
+size:  2161066
+new:  1330649.0
 Entropia:  4.444951905535852
 Numero de Simbolos:  105
 Simbolos mais frequentes: 
@@ -109,10 +125,12 @@ Simbolos mais frequentes:
 5 º:  115
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 110]
 Soma probabilidade:  53.52478822951265 %
-Compress~ao obtida:  0.22497431271518906
+Compress~ao obtida:  1.6240691572307948
 
 
 Input file is " ../files/pg3333.docx
+size:  293946
+new:  311609.5
 Entropia:  7.988367481947851
 Numero de Simbolos:  256
 Simbolos mais frequentes: 
@@ -123,10 +141,12 @@ Simbolos mais frequentes:
 5 º:  121
 Subconjunto com mais que 50% de probabilidade:  [0, 36, 113, 85, 121, 56, 18, 186, 221, 227, 141, 109, 105, 137, 117, 77, 243, 97, 73, 188, 9, 110, 4, 2, 89, 40, 231, 133, 74, 145, 101, 211, 161, 52, 155, 232, 192, 81, 129, 170, 42, 26, 135, 180, 166, 162, 86, 198, 172, 69, 119, 184, 93, 215, 149, 203, 84, 195, 68, 60, 208, 55, 158, 92, 174, 3, 253, 11, 76, 66, 219, 19, 220, 37, 30, 10, 216, 199, 187, 171, 237, 29, 242, 38, 72, 176, 46, 247, 251, 153, 14, 196, 214, 112, 34, 54, 182, 185, 90, 235, 58, 177, 142, 71, 48, 35, 64, 127, 88, 124, 173, 151, 116, 106, 20, 1, 120, 250, 148, 223]
 Soma probabilidade:  50.378981173412804 %
-Compress~ao obtida:  0.12518202276745588
+Compress~ao obtida:  0.9433152711968024
 
 
 Input file is " ../files/pg3333.html
+size:  404389
+new:  262085.0
 Entropia:  4.71685414273991
 Numero de Simbolos:  110
 Simbolos mais frequentes: 
@@ -137,10 +157,12 @@ Simbolos mais frequentes:
 5 º:  114
 Subconjunto com mais que 50% de probabilidade:  [32, 10, 101, 97, 114, 111]
 Soma probabilidade:  50.042656946652855 %
-Compress~ao obtida:  0.21200570756235504
+Compress~ao obtida:  1.5429688841406415
 
 
 Input file is " ../files/pg3333.txt
+size:  344542
+new:  219752.25
 Entropia:  4.677189324036881
 Numero de Simbolos:  109
 Simbolos mais frequentes: 
@@ -151,10 +173,12 @@ Simbolos mais frequentes:
 5 º:  115
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 114]
 Soma probabilidade:  51.78526855942091 %
-Compress~ao obtida:  0.21380361809619872
+Compress~ao obtida:  1.5678656304998015
 
 
 Input file is " ../files/pg35688.txt
+size:  104081
+new:  70626.375
 Entropia:  4.915584807303797
 Numero de Simbolos:  87
 Simbolos mais frequentes: 
@@ -165,10 +189,12 @@ Simbolos mais frequentes:
 5 º:  111
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 116, 10, 111, 97, 110, 115]
 Soma probabilidade:  53.28830430145752 %
-Compress~ao obtida:  0.2034345940922748
+Compress~ao obtida:  1.4736845831320098
 
 
 Input file is " ../files/pg40409.txt
+size:  1389563
+new:  899452.375
 Entropia:  4.718205596936004
 Numero de Simbolos:  127
 Simbolos mais frequentes: 
@@ -179,10 +205,12 @@ Simbolos mais frequentes:
 5 º:  115
 Subconjunto com mais que 50% de probabilidade:  [32, 97, 101, 111, 115, 114]
 Soma probabilidade:  50.2329149523987 %
-Compress~ao obtida:  0.21194498193325867
+Compress~ao obtida:  1.544898916966004
 
 
 Input file is " ../files/progc
+size:  39611
+new:  27983.625
 Entropia:  5.199016032534359
 Numero de Simbolos:  92
 Simbolos mais frequentes: 
@@ -193,4 +221,4 @@ Simbolos mais frequentes:
 5 º:  13
 Subconjunto com mais que 50% de probabilidade:  [32, 101, 116, 105, 13, 115, 111, 110, 114]
 Soma probabilidade:  50.339552144606294 %
-Compress~ao obtida:  0.19234408852409918
+Compress~ao obtida:  1.4155063898976634

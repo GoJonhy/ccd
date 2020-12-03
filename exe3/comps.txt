@@ -1,0 +1,57 @@
+../files/34767-0.txt
+../files/34767-0.txt : 29.88%   (716288 => 214003 bytes, comp/estimation-34767-0.txt.zst) 
+ordem1/estimation-34767-0.txt : 59.01%   (716288 => 422659 bytes, compOrdem1/estimation-34767-0.txt.zst) 
+zstd: compOrdem2/estimation-34767-0.txt.zst already exists; overwrite (y/N) ? y
+ordem2/estimation-34767-0.txt : 38.85%   (716288 => 278260 bytes, compOrdem2/estimation-34767-0.txt.zst) 
+../files/azores.poi
+../files/azores.poi  : 28.86%   (2355200 => 679736 bytes, comp/estimation-azores.poi.zst) 
+ordem1/estimation-azores.poi : 75.36%   (2355200 => 1774993 bytes, compOrdem1/estimation-azores.poi.zst) 
+ordem2/estimation-azores.poi : 62.73%   (2355200 => 1477423 bytes, compOrdem2/estimation-azores.poi.zst) 
+../files/boat4.jpg
+../files/boat4.jpg   :100.01%   (286467 => 286489 bytes, comp/estimation-boat4.jpg.zst) 
+ordem1/estimation-boat4.jpg :100.01%   (286467 => 286489 bytes, compOrdem1/estimation-boat4.jpg.zst) 
+ordem2/estimation-boat4.jpg :100.01%   (286467 => 286489 bytes, compOrdem2/estimation-boat4.jpg.zst) 
+../files/kodim23.png
+../files/kodim23.png :100.01%   (557596 => 557624 bytes, comp/estimation-kodim23.png.zst) 
+ordem1/estimation-kodim23.png :100.01%   (557596 => 557624 bytes, compOrdem1/estimation-kodim23.png.zst) 
+ordem2/estimation-kodim23.png :100.01%   (557596 => 557624 bytes, compOrdem2/estimation-kodim23.png.zst) 
+../files/lenac.bmp
+../files/lenac.bmp   : 96.06%   (786486 => 755527 bytes, comp/estimation-lenac.bmp.zst) 
+ordem1/estimation-lenac.bmp : 97.38%   (786486 => 765841 bytes, compOrdem1/estimation-lenac.bmp.zst) 
+ordem2/estimation-lenac.bmp : 97.35%   (786486 => 765617 bytes, compOrdem2/estimation-lenac.bmp.zst) 
+../files/pg1000.txt
+../files/pg1000.txt  : 39.86%   (580048 => 231194 bytes, comp/estimation-pg1000.txt.zst) 
+ordem1/estimation-pg1000.txt : 57.61%   (580048 => 334184 bytes, compOrdem1/estimation-pg1000.txt.zst) 
+ordem2/estimation-pg1000.txt : 37.39%   (580048 => 216862 bytes, compOrdem2/estimation-pg1000.txt.zst) 
+../files/pg12579.txt
+../files/pg12579.txt : 41.41%   (113480 =>  46988 bytes, comp/estimation-pg12579.txt.zst) 
+ordem1/estimation-pg12579.txt : 58.39%   (113480 =>  66265 bytes, compOrdem1/estimation-pg12579.txt.zst) 
+ordem2/estimation-pg12579.txt : 43.42%   (113480 =>  49272 bytes, compOrdem2/estimation-pg12579.txt.zst) 
+../files/pg2000.txt
+../files/pg2000.txt  : 36.35%   (2161066 => 785638 bytes, comp/estimation-pg2000.txt.zst) 
+ordem1/estimation-pg2000.txt : 58.43%   (2161066 => 1262711 bytes, compOrdem1/estimation-pg2000.txt.zst) 
+ordem2/estimation-pg2000.txt : 37.40%   (2161066 => 808191 bytes, compOrdem2/estimation-pg2000.txt.zst) 
+../files/pg3333.docx
+../files/pg3333.docx : 99.47%   (293946 => 292385 bytes, comp/estimation-pg3333.docx.zst) 
+ordem1/estimation-pg3333.docx :100.01%   (293946 => 293968 bytes, compOrdem1/estimation-pg3333.docx.zst) 
+ordem2/estimation-pg3333.docx :100.01%   (293946 => 293968 bytes, compOrdem2/estimation-pg3333.docx.zst) 
+../files/pg3333.html
+../files/pg3333.html : 37.04%   (404389 => 149788 bytes, comp/estimation-pg3333.html.zst) 
+ordem1/estimation-pg3333.html : 59.93%   (404389 => 242348 bytes, compOrdem1/estimation-pg3333.html.zst)                                                      
+ordem2/estimation-pg3333.html : 41.84%   (404389 => 169213 bytes, compOrdem2/estimation-pg3333.html.zst)                                                      
+../files/pg3333.txt
+../files/pg3333.txt  : 40.95%   (344542 => 141095 bytes, comp/estimation-pg3333.txt.zst) 
+ordem1/estimation-pg3333.txt : 59.87%   (344542 => 206286 bytes, compOrdem1/estimation-pg3333.txt.zst) 
+ordem2/estimation-pg3333.txt : 41.97%   (344542 => 144588 bytes, compOrdem2/estimation-pg3333.txt.zst) 
+../files/pg35688.txt
+../files/pg35688.txt : 38.26%   (104081 =>  39820 bytes, comp/estimation-pg35688.txt.zst) 
+ordem1/estimation-pg35688.txt : 61.95%   (104081 =>  64483 bytes, compOrdem1/estimation-pg35688.txt.zst) 
+ordem2/estimation-pg35688.txt : 48.84%   (104081 =>  50830 bytes, compOrdem2/estimation-pg35688.txt.zst) 
+../files/pg40409.txt
+../files/pg40409.txt : 37.37%   (1389563 => 519232 bytes, comp/estimation-pg40409.txt.zst) 
+ordem1/estimation-pg40409.txt : 60.90%   (1389563 => 846244 bytes, compOrdem1/estimation-pg40409.txt.zst)                                                     
+ordem2/estimation-pg40409.txt : 40.76%   (1389563 => 566342 bytes, compOrdem2/estimation-pg40409.txt.zst)                                                     
+../files/progc
+../files/progc       : 35.82%   ( 39611 =>  14187 bytes, comp/estimation-progc.zst) 
+ordem1/estimation-progc : 65.49%   ( 39611 =>  25942 bytes, compOrdem1/estimation-progc.zst) 
+ordem2/estimation-progc : 57.09%   ( 39611 =>  22612 bytes, compOrdem2/estimation-progc.zst) 

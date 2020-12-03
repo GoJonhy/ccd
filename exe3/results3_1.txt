@@ -1,0 +1,196 @@
+
+
+Input file is " ordem1/estimation-34767-0.txt
+Entropia:  4.3203379640347075
+Numero de Simbolos:  151
+Simbolos mais frequentes: 
+1 º:  206
+2 º:  207
+3 º:  32
+4 º:  177
+5 º:  132
+Subconjunto com mais que 50% de probabilidade:  [206, 207, 32]
+Soma probabilidade:  51.5848373838456 %
+Compress~ao obtida:  0.2314633735426829
+
+
+Input file is " ordem1/estimation-azores.poi
+Entropia:  5.989851841208844
+Numero de Simbolos:  256
+Simbolos mais frequentes: 
+1 º:  0
+2 º:  101
+3 º:  97
+4 º:  111
+5 º:  32
+Subconjunto com mais que 50% de probabilidade:  [0, 101, 97, 111, 32, 114, 105, 2, 110, 115, 116]
+Soma probabilidade:  50.072393002717384 %
+Compress~ao obtida:  0.16694903755719337
+
+
+Input file is " ordem1/estimation-boat4.jpg
+Entropia:  7.994561389926162
+Numero de Simbolos:  256
+Simbolos mais frequentes: 
+1 º:  60
+2 º:  0
+3 º:  221
+4 º:  56
+5 º:  32
+Subconjunto com mais que 50% de probabilidade:  [60, 0, 221, 56, 32, 112, 64, 30, 219, 15, 237, 227, 120, 34, 243, 1, 174, 48, 121, 136, 235, 195, 36, 12, 188, 187, 63, 231, 52, 135, 28, 158, 4, 94, 101, 129, 215, 116, 31, 124, 185, 114, 9, 128, 105, 46, 68, 144, 2, 80, 66, 14, 132, 16, 38, 170, 17, 184, 8, 117, 65, 207, 238, 183, 226, 241, 193, 118, 67, 77, 151, 146, 50, 178, 126, 246, 167, 110, 18, 100, 7, 25, 199, 113, 131, 97, 19, 239, 79, 73, 26, 44, 228, 145, 35, 225, 58, 191, 29, 78, 93, 71, 251, 200, 3, 156, 47, 111, 211, 254, 139, 248, 253, 150, 242, 190, 69, 109, 55]
+Soma probabilidade:  50.02146844139116 %
+Compress~ao obtida:  0.12508503609217225
+
+
+Input file is " ordem1/estimation-kodim23.png
+Entropia:  7.985888100813192
+Numero de Simbolos:  256
+Simbolos mais frequentes: 
+1 º:  170
+2 º:  68
+3 º:  34
+4 º:  204
+5 º:  17
+Subconjunto com mais que 50% de probabilidade:  [170, 68, 34, 204, 17, 153, 85, 102, 136, 247, 251, 51, 253, 238, 145, 219, 49, 152, 231, 84, 0, 115, 235, 36, 243, 50, 82, 8, 57, 221, 230, 125, 245, 211, 109, 187, 74, 179, 215, 205, 76, 207, 239, 89, 16, 119, 155, 213, 189, 250, 166, 69, 181, 169, 223, 203, 191, 114, 42, 237, 171, 186, 60, 162, 199, 154, 255, 138, 100, 156, 182, 185, 173, 41, 233, 127, 123, 147, 158, 206, 32, 143, 72, 174, 90, 202, 132, 149, 175, 98, 190, 62, 220, 137, 121, 225, 106, 159, 246, 126, 146, 222, 31, 103, 35, 214, 183, 25, 218, 168, 167, 139, 164, 151, 95]
+Soma probabilidade:  50.15799969870659 %
+Compress~ao obtida:  0.12522088806856327
+
+
+Input file is " ordem1/estimation-lenac.bmp
+Entropia:  7.751502077365143
+Numero de Simbolos:  256
+Simbolos mais frequentes: 
+1 º:  92
+2 º:  95
+3 º:  94
+4 º:  97
+5 º:  96
+Subconjunto com mais que 50% de probabilidade:  [92, 95, 94, 97, 96, 91, 93, 99, 89, 88, 90, 98, 87, 103, 101, 100, 83, 86, 102, 81, 121, 85, 105, 104, 124, 125, 84, 79, 120, 77, 76, 119, 82, 113, 117, 78, 123, 75, 112, 108, 107, 116, 118, 80, 73, 71, 65, 115, 110, 63, 126, 109, 106, 67, 128, 122, 74, 129, 66, 114, 69, 70, 111, 72, 68, 127, 64, 131, 62, 224, 221, 207, 61, 130, 205, 132]
+Soma probabilidade:  50.41475627029598 %
+Compress~ao obtida:  0.12900725433849292
+
+
+Input file is " ordem1/estimation-pg1000.txt
+Entropia:  4.381688064161449
+Numero de Simbolos:  97
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  97
+4 º:  105
+5 º:  111
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 105, 111, 110]
+Soma probabilidade:  53.19077041899981 %
+Compress~ao obtida:  0.22822254468070532
+
+
+Input file is " ordem1/estimation-pg12579.txt
+Entropia:  4.606555316167629
+Numero de Simbolos:  110
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  97
+4 º:  111
+5 º:  115
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 114]
+Soma probabilidade:  51.685759605216774 %
+Compress~ao obtida:  0.21708194765192562
+
+
+Input file is " ordem1/estimation-pg2000.txt
+Entropia:  4.444994037989862
+Numero de Simbolos:  100
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  97
+4 º:  111
+5 º:  115
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 110]
+Soma probabilidade:  53.50970308171985 %
+Compress~ao obtida:  0.22497218026691074
+
+
+Input file is " ordem1/estimation-pg3333.docx
+Entropia:  7.9875349035509995
+Numero de Simbolos:  256
+Simbolos mais frequentes: 
+1 º:  0
+2 º:  36
+3 º:  105
+4 º:  113
+5 º:  121
+Subconjunto com mais que 50% de probabilidade:  [0, 36, 105, 113, 121, 186, 188, 18, 141, 117, 56, 170, 42, 85, 97, 133, 232, 135, 109, 137, 192, 243, 231, 77, 129, 195, 86, 119, 216, 203, 155, 227, 68, 11, 9, 73, 215, 38, 145, 55, 2, 251, 198, 166, 89, 40, 158, 221, 48, 81, 4, 208, 26, 69, 235, 177, 219, 162, 184, 72, 161, 84, 52, 3, 224, 180, 172, 60, 54, 74, 93, 149, 173, 187, 247, 220, 110, 47, 239, 37, 19, 29, 101, 176, 112, 46, 211, 14, 151, 196, 1, 76, 237, 174, 58, 44, 214, 207, 30, 124, 82, 31, 34, 136, 127, 250, 150, 182, 92, 153, 66, 63, 185, 160, 116, 146, 228, 242, 200]
+Soma probabilidade:  50.2847461778694 %
+Compress~ao obtida:  0.1251950710794932
+
+
+Input file is " ordem1/estimation-pg3333.html
+Entropia:  4.718608577721272
+Numero de Simbolos:  109
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  10
+3 º:  101
+4 º:  97
+5 º:  114
+Subconjunto com mais que 50% de probabilidade:  [32, 10, 101, 97, 114, 111, 115]
+Soma probabilidade:  55.14220218650854 %
+Compress~ao obtida:  0.2119268813101942
+
+
+Input file is " ordem1/estimation-pg3333.txt
+Entropia:  4.675986204303732
+Numero de Simbolos:  105
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  97
+4 º:  111
+5 º:  115
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 97, 111, 115, 114]
+Soma probabilidade:  51.86595538424924 %
+Compress~ao obtida:  0.2138586292405245
+
+
+Input file is " ordem1/estimation-pg35688.txt
+Entropia:  4.913055960957037
+Numero de Simbolos:  85
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  116
+4 º:  10
+5 º:  111
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 116, 10, 111, 97, 110, 115]
+Soma probabilidade:  53.31904958637984 %
+Compress~ao obtida:  0.2035393058712904
+
+
+Input file is " ordem1/estimation-pg40409.txt
+Entropia:  4.719108586629957
+Numero de Simbolos:  123
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  97
+3 º:  101
+4 º:  111
+5 º:  115
+Subconjunto com mais que 50% de probabilidade:  [32, 97, 101, 111, 115, 114]
+Soma probabilidade:  50.18455442466444 %
+Compress~ao obtida:  0.21190442678796834
+
+
+Input file is " ordem1/estimation-progc
+Entropia:  5.187111785905227
+Numero de Simbolos:  91
+Simbolos mais frequentes: 
+1 º:  32
+2 º:  101
+3 º:  116
+4 º:  105
+5 º:  111
+Subconjunto com mais que 50% de probabilidade:  [32, 101, 116, 105, 111, 13, 115, 114, 110]
+Soma probabilidade:  50.25624195299285 %
+Compress~ao obtida:  0.19278551172104455

@@ -1,0 +1,56 @@
+
+
+Input file is " ordem2/estimation-34767-0.txt
+Entropia 1ª Ordem Markov:  2.9136622134753463
+
+
+Input file is " ordem2/estimation-azores.poi
+Entropia 1ª Ordem Markov:  3.870241723497003
+
+
+Input file is " ordem2/estimation-boat4.jpg
+Entropia 1ª Ordem Markov:  4.79672924533006
+
+
+Input file is " ordem2/estimation-kodim23.png
+Entropia 1ª Ordem Markov:  4.884679755778661
+
+
+Input file is " ordem2/estimation-lenac.bmp
+Entropia 1ª Ordem Markov:  4.79470852835753
+
+
+Input file is " ordem2/estimation-pg1000.txt
+Entropia 1ª Ordem Markov:  3.0159959375917373
+
+
+Input file is " ordem2/estimation-pg12579.txt
+Entropia 1ª Ordem Markov:  3.1030670217621155
+
+
+Input file is " ordem2/estimation-pg2000.txt
+Entropia 1ª Ordem Markov:  3.049693044032678
+
+
+Input file is " ordem2/estimation-pg3333.docx
+Entropia 1ª Ordem Markov:  4.797513263818675
+
+
+Input file is " ordem2/estimation-pg3333.html
+Entropia 1ª Ordem Markov:  3.1988293050792103
+
+
+Input file is " ordem2/estimation-pg3333.txt
+Entropia 1ª Ordem Markov:  3.1706658349377044
+
+
+Input file is " ordem2/estimation-pg35688.txt
+Entropia 1ª Ordem Markov:  3.292309605814423
+
+
+Input file is " ordem2/estimation-pg40409.txt
+Entropia 1ª Ordem Markov:  3.2054100612916794
+
+
+Input file is " ordem2/estimation-progc
+Entropia 1ª Ordem Markov:  3.363734928663001

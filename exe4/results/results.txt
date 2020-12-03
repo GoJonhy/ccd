@@ -1,0 +1,19 @@
+Read : 0 / 0 MB ==> 25%                                                                                results/dados.txt    : 24.66%   (716289 => 176635 bytes, results/dados.zst) 
+
+
+Input file is " results/dados.txt
+Entropia:  2.584931594073952
+Numero de Simbolos:  6
+Simbolos mais frequentes: 
+1 º:  5
+2 º:  4
+3 º:  6
+4 º:  2
+5 º:  1
+Subconjunto com mais que 50% de probabilidade:  [5, 4, 6]
+Soma probabilidade:  50.27007255451361 %
+Compress~ao obtida:  0.3868574326270512
+
+
+Input file is " results/dados.txt
+Entropia 1ª Ordem Markov:  1.3436590062584954

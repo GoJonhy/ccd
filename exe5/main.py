@@ -75,11 +75,13 @@ def create2DArray():
     return [[0] * 256 for i in range(256)]
 
 def main(argv):
-    state = 255;
+    state = 0;
     prob = 0.5;
     resultset=''
 
-    lenght=2000;
+    stdout = os.fdopen(sys.stdout.fileno(), 'wb')
+    outputSize = 0
+    lenght=716288/2;
 
     byte2DArray = create2DArray();
 
@@ -88,14 +90,13 @@ def main(argv):
     while(True):
         prev_state = state
         state=markovGeneretor(prob,state);
-        resultset += str(state) ;
+        stdout.write(state.to_bytes(1, byteorder="big"))
         if(prev_state != None):
             byte2DArray[prev_state][state] += 1
         total += 1
         if total >= lenght:
             break
     
-    print (resultset)
     #compressed=zlib.compress(resultset.encode());
     entropia = entropyCalc1Markov(byte2DArray);
     

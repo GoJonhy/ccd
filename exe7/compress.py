@@ -41,10 +41,12 @@ def main(argv):
     byteDict = dict()
     betsize=0;bet=list();
     # Leitura byte a byte
+    compressedByte=''
     while True:
         byte = inputFile.read(size)
         if(int.from_bytes(byte, "big")!=0):
-            print(CompressByte(byte,betsize))
+            compressedByte+=CompressByte(byte,betsize)
+            #print(compressedByte)
             if(betsize==7):
                 betsize=0;
             betsize+=1;
@@ -52,6 +54,7 @@ def main(argv):
         
         if byteTotal >= fileSize:
             break
-
+    
+    stdout.write(int(compressedByte, 2).to_bytes(len(compressedByte) // 8, byteorder='big'));
 if __name__ == "__main__":
     main(sys.argv[1:])

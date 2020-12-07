@@ -16,6 +16,15 @@ def CompressByte(symbol: bytes, index: int):
             newsymbol = k.bin
     return newsymbol;
 
+def bitstring_to_bytes(s):
+    v = int(s, 2)
+    b = bytearray()
+    while v:
+        b.append(v & 0xff)
+        v >>= 8
+    return bytes(b[::-1])
+
+
 def main(argv):
 
     # Leitura de argumentos
@@ -54,7 +63,12 @@ def main(argv):
         
         if byteTotal >= fileSize:
             break
-    
-    stdout.write(int(compressedByte, 2).to_bytes(len(compressedByte) // 8, byteorder='big'));
+
+
+    #print(bitstring_to_bytes(compressedByte))
+    #print(int(compressedByte, 2).to_bytes(len(compressedByte) // 8, byteorder='big'));
+    #print(bytes([int(i,2) for i in compressedByte]))
+    stdout.write(bitstring_to_bytes(compressedByte))
+    #stdout.write(int(compressedByte, 2).to_bytes(len(compressedByte) // 8, byteorder='big'));
 if __name__ == "__main__":
     main(sys.argv[1:])

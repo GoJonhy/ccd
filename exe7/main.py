@@ -4,7 +4,7 @@ import random
 def main(argv):
 
     stdout = os.fdopen(sys.stdout.fileno(), 'wb')
-    outputSize=100;
+    outputSize=716288;
     betSize=7;
     index=1;totalSize=0;
     betnumber = list();betstar=list();

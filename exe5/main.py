@@ -1,20 +1,20 @@
 # Main 
 import os
-import sys, zlib
+import sys, getopt
 from random import choices
 import math
 #from lib.FontGenerator import FontGenerator
 
 def markovGeneretor(transationProb: float,state: int) -> int:
-        prob_jump_previous_state=(transationProb/3);
-        prob_jump_next_state=(transationProb/3);
-        prob_stay_state=(transationProb/3);
+        prob_jump_previous_state=float(transationProb/3.0);
+        prob_jump_next_state=float(transationProb/3.0);
+        prob_stay_state=float(transationProb/3.0);
 
         prob_double_jump_next_state=((1-transationProb)/2);
         prob_double_jump_previous_state=((1-transationProb)/2);
         jump_state=['previous','next','stay','double_previous','double_next'];
         probabilities=[prob_jump_previous_state,prob_jump_next_state,prob_stay_state,prob_double_jump_next_state,prob_double_jump_previous_state];
-
+        
         step=''.join(choices(jump_state, probabilities));
         switcher = {
             'previous': state-1,
@@ -24,10 +24,7 @@ def markovGeneretor(transationProb: float,state: int) -> int:
             'double_next': state+2
         };
         state = switcher.get(step)
-        if state < 0 :
-            state =  state + 256;
-        elif state > 255 :
-            state =  state - 256;
+        state = (state % 256)
         #print (step)
         return state;
 
@@ -75,13 +72,30 @@ def create2DArray():
     return [[0] * 256 for i in range(256)]
 
 def main(argv):
+
+    # Leitura de argumentos
+    try:
+        opts, args = getopt.getopt(argv, "hp:")
+    except getopt.GetoptError:
+        print("-p < 0 <= number <= 1 >")
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print("-p < 0 <= number <= 1 >")
+            sys.exit()
+        elif opt in ("-p"):
+            number = float(arg)
+
+
     state = 0;
-    prob = 0.5;
+    if( number > 1 or number < 0):
+        print("Invalid Input. Should be 0 <= p <= 1.")
+    prob = number;
     resultset=''
 
     stdout = os.fdopen(sys.stdout.fileno(), 'wb')
     outputSize = 0
-    lenght=716288/2;
+    lenght=716288;
 
     byte2DArray = create2DArray();
 

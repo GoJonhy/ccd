@@ -1,0 +1,28 @@
+
+
+Input file is " results/dados0.1.txt
+Entropia 1ª Ordem Markov:  1.5263397523969062
+
+
+Input file is " results/dados0.2.txt
+Entropia 1ª Ordem Markov:  1.8374750321163293
+
+
+Input file is " results/dados0.4.txt
+Entropia 1ª Ordem Markov:  2.2044120200699435
+
+
+Input file is " results/dados0.6.txt
+Entropia 1ª Ordem Markov:  2.320916740159637
+
+
+Input file is " results/dados0.8.txt
+Entropia 1ª Ordem Markov:  2.1891305950467896
+
+
+Input file is " results/dados0.txt
+Entropia 1ª Ordem Markov:  0.9998624120419387
+
+
+Input file is " results/dados1.txt
+Entropia 1ª Ordem Markov:  1.5844347182191665

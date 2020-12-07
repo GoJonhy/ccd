@@ -1,0 +1,7 @@
+Read : 0 / 0 MB ==> 46%                                                                                results/dados0.1.txt : 41.02%   (716288 => 293843 bytes, comp/comp-dados0.1.txt.zst) 
+Read : 0 / 0 MB ==> 55%                                                                                results/dados0.2.txt : 48.35%   (716288 => 346334 bytes, comp/comp-dados0.2.txt.zst) 
+Read : 0 / 0 MB ==> 68%                                                                                results/dados0.4.txt : 59.09%   (716288 => 423281 bytes, comp/comp-dados0.4.txt.zst) 
+Read : 0 / 0 MB ==> 73%                                                                                results/dados0.6.txt : 63.91%   (716288 => 457748 bytes, comp/comp-dados0.6.txt.zst) 
+Read : 0 / 0 MB ==> 67%                                                                                results/dados0.8.txt : 58.10%   (716288 => 416167 bytes, comp/comp-dados0.8.txt.zst) 
+Read : 0 / 0 MB ==> 29%                                                                                results/dados0.txt   : 27.77%   (716288 => 198900 bytes, comp/comp-dados0.txt.zst) 
+Read : 0 / 0 MB ==> 45%                                                                                results/dados1.txt   : 41.01%   (716288 => 293775 bytes, comp/comp-dados1.txt.zst) 

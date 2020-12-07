@@ -1,0 +1,18 @@
+total 4660
+drwxr-xr-x 2 kali kali   4096 Dec  6 20:19 .
+drwxr-xr-x 6 kali kali   4096 Dec  6 20:19 ..
+-rw-r--r-- 1 kali kali 212127 Dec  6 20:19 34767-0.txt.gz
+-rw-r--r-- 1 kali kali 686687 Dec  6 20:19 azores.poi.gz
+-rw-r--r-- 1 kali kali 286540 Dec  6 20:19 boat4.jpg.gz
+-rw-r--r-- 1 kali kali 557674 Dec  6 20:19 kodim23.png.gz
+-rw-r--r-- 1 kali kali 733358 Dec  6 20:19 lenac.bmp.gz
+-rw-r--r-- 1 kali kali 229685 Dec  6 20:19 pg1000.txt.gz
+-rw-r--r-- 1 kali kali  45990 Dec  6 20:19 pg12579.txt.gz
+-rw-r--r-- 1 kali kali 806147 Dec  6 20:19 pg2000.txt.gz
+-rw-r--r-- 1 kali kali 291429 Dec  6 20:19 pg3333.docx.gz
+-rw-r--r-- 1 kali kali 148299 Dec  6 20:19 pg3333.html.gz
+-rw-r--r-- 1 kali kali 141267 Dec  6 20:19 pg3333.txt.gz
+-rw-r--r-- 1 kali kali  38480 Dec  6 20:19 pg35688.txt.gz
+-rw-r--r-- 1 kali kali 538359 Dec  6 20:19 pg40409.txt.gz
+-rw-r--r-- 1 kali kali  13277 Dec  6 20:19 progc.gz
+-rw-r--r-- 1 kali kali      0 Dec  6 20:19 results.txt

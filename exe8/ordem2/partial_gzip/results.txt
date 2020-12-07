@@ -1,0 +1,9 @@
+total 716
+drwxr-xr-x 2 kali kali   4096 Dec  7 15:50 .
+drwxr-xr-x 5 kali kali   4096 Dec  7 15:32 ..
+-rw-r--r-- 1 kali kali  69454 Dec  7 15:50 179072.txt.gz
+-rw-r--r-- 1 kali kali 137948 Dec  7 15:50 358144.txt.gz
+-rw-r--r-- 1 kali kali 206409 Dec  7 15:50 537216.txt.gz
+-rw-r--r-- 1 kali kali 274647 Dec  7 15:50 716288.txt.gz
+-rw-r--r-- 1 kali kali  28341 Dec  7 15:50 71629.txt.gz
+-rw-r--r-- 1 kali kali      0 Dec  7 15:50 results.txt

@@ -1,0 +1,70 @@
+../Ponto1/files/target_0.1kiB.txt
+Original:  102
+Normal:  90
+Dict:  90
+Gain:  1.0
+../Ponto1/files/target_0.2kiB.txt
+Original:  204
+Normal:  143
+Dict:  143
+Gain:  1.0
+../Ponto1/files/target_0.3kiB.txt
+Original:  307
+Normal:  205
+Dict:  205
+Gain:  1.0
+../Ponto1/files/target_0.4kiB.txt
+Original:  409
+Normal:  270
+Dict:  270
+Gain:  1.0
+../Ponto1/files/target_0.5kiB.txt
+Original:  512
+Normal:  336
+Dict:  336
+Gain:  1.0
+../Ponto1/files/target_10kiB.txt
+Original:  10240
+Normal:  5041
+Dict:  5041
+Gain:  1.0
+../Ponto1/files/target_1kiB.txt
+Original:  1024
+Normal:  601
+Dict:  601
+Gain:  1.0
+../Ponto1/files/target_20kiB.txt
+Original:  20480
+Normal:  9168
+Dict:  9168
+Gain:  1.0
+../Ponto1/files/target_2kiB.txt
+Original:  2048
+Normal:  1287
+Dict:  1287
+Gain:  1.0
+../Ponto1/files/target_32kiB.txt
+Original:  32768
+Normal:  13864
+Dict:  13864
+Gain:  1.0
+../Ponto1/files/target_3kiB.txt
+Original:  3072
+Normal:  1911
+Dict:  1911
+Gain:  1.0
+../Ponto1/files/target_4kiB.txt
+Original:  4096
+Normal:  2329
+Dict:  2329
+Gain:  1.0
+../Ponto1/files/target_5kiB.txt
+Original:  5120
+Normal:  2859
+Dict:  2859
+Gain:  1.0
+../Ponto1/files/target_6kiB.txt
+Original:  6144
+Normal:  3360
+Dict:  3360
+Gain:  1.0

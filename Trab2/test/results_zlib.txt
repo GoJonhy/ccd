@@ -1,0 +1,84 @@
+File:  ../test/files/target_0.05kiB.txt  :  51
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  51
+Dize Combined:  32819
+Combined:  29559
+Solo dict:  29526
+Normal:  26
+Dict:  33
+Gain:  0.7878787878787878
+Ratio Normal:  1.9615384615384615
+Ratio Dict:  1.5454545454545454
+
+File:  ../test/files/target_0.1kiB.txt  :  102
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  102
+Dize Combined:  32870
+Combined:  29603
+Solo dict:  29526
+Normal:  73
+Dict:  77
+Gain:  0.948051948051948
+Ratio Normal:  1.3972602739726028
+Ratio Dict:  1.3246753246753247
+
+File:  ../test/files/target_0.2kiB.txt  :  204
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  204
+Dize Combined:  32972
+Combined:  29719
+Solo dict:  29526
+Normal:  191
+Dict:  193
+Gain:  0.9896373056994818
+Ratio Normal:  1.068062827225131
+Ratio Dict:  1.0569948186528497
+
+File:  ../test/files/target_0.3kiB.txt  :  307
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  307
+Dize Combined:  33075
+Combined:  29823
+Solo dict:  29526
+Normal:  307
+Dict:  297
+Gain:  1.0336700336700337
+Ratio Normal:  1.0
+Ratio Dict:  1.0336700336700337
+
+File:  ../test/files/target_0.4kiB.txt  :  409
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  409
+Dize Combined:  33177
+Combined:  29927
+Solo dict:  29526
+Normal:  413
+Dict:  401
+Gain:  1.0299251870324189
+Ratio Normal:  0.9903147699757869
+Ratio Dict:  1.0199501246882794
+
+File:  ../test/files/target_0.5kiB.txt  :  512
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  512
+Dize Combined:  33280
+Combined:  30024
+Solo dict:  29526
+Normal:  506
+Dict:  498
+Gain:  1.0160642570281124
+Ratio Normal:  1.0118577075098814
+Ratio Dict:  1.0281124497991967
+
+File:  ../test/files/target_1kiB.txt  :  1024
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  1024
+Dize Combined:  33792
+Combined:  30484
+Solo dict:  29526
+Normal:  974
+Dict:  958
+Gain:  1.0167014613778707
+Ratio Normal:  1.051334702258727
+Ratio Dict:  1.068893528183716
+

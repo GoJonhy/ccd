@@ -1,0 +1,25 @@
+../Ponto1/files2/target_0.1kiB.txt
+Original:  102
+Normal:  90
+Dict:  90
+Gain:  1.0
+../Ponto1/files2/target_0.2kiB.txt
+Original:  204
+Normal:  143
+Dict:  143
+Gain:  1.0
+../Ponto1/files2/target_0.3kiB.txt
+Original:  307
+Normal:  205
+Dict:  205
+Gain:  1.0
+../Ponto1/files2/target_0.4kiB.txt
+Original:  409
+Normal:  270
+Dict:  270
+Gain:  1.0
+../Ponto1/files2/target_0.5kiB.txt
+Original:  512
+Normal:  336
+Dict:  336
+Gain:  1.0

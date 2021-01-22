@@ -2,7 +2,7 @@
 
 rm files/*
 
-file="34767-0.txt";
+file="lenac.bmp";
 
   python3 estimativaOrdem2.py -i $file -s0.05 >> "files/target_0.05kiB.txt"
   python3 estimativaOrdem2.py -i $file -s0.1 >> "files/target_0.1kiB.txt"

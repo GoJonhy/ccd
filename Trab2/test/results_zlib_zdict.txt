@@ -1,0 +1,49 @@
+File:  ../test/files/target_0.05kiB.txt  :  51
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  51
+Normal:  26
+Dict:  30
+Gain:  0.8666666666666667
+
+File:  ../test/files/target_0.1kiB.txt  :  102
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  102
+Normal:  73
+Dict:  76
+Gain:  0.9605263157894737
+
+File:  ../test/files/target_0.2kiB.txt  :  204
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  204
+Normal:  191
+Dict:  195
+Gain:  0.9794871794871794
+
+File:  ../test/files/target_0.3kiB.txt  :  307
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  307
+Normal:  307
+Dict:  311
+Gain:  0.9871382636655949
+
+File:  ../test/files/target_0.4kiB.txt  :  409
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  409
+Normal:  413
+Dict:  417
+Gain:  0.9904076738609112
+
+File:  ../test/files/target_0.5kiB.txt  :  512
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  512
+Normal:  506
+Dict:  510
+Gain:  0.9921568627450981
+
+File:  ../test/files/target_1kiB.txt  :  1024
+Dic:  ../test/dict_reduced_32kiB.txt  :  32768
+Original:  1024
+Normal:  974
+Dict:  978
+Gain:  0.9959100204498977
+

@@ -3,7 +3,7 @@
 clear
 rm results*.txt
 
-python3 ../Ponto1/estimativaOrdem2.py -i "../Ponto1/dict_reduced_32kiB.txt" -s32 >> "../Ponto3/dict_estimation_32kiB.txt"
+python3 ../Ponto1/estimativaOrdem2.py -i "../Ponto1/dict_reduced_32kiB.txt" -s32 > "../Ponto3/dict_estimation_32kiB.txt"
 
 for file in ../Ponto1/files/*
 do

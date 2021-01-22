@@ -1,0 +1,45 @@
+File:  ../../Ponto1/files2/target_0.1kiB.txt  :  102
+Dic:  files/dict_reduced_lenac_32kiB.txt  :  32768
+Original:  102
+Combined:  29932
+Solo dict:  29839
+Normal:  95
+Dict:  93
+Gain:  1.021505376344086
+
+File:  ../../Ponto1/files2/target_0.2kiB.txt  :  204
+Dic:  files/dict_reduced_lenac_32kiB.txt  :  32768
+Original:  204
+Combined:  30029
+Solo dict:  29839
+Normal:  152
+Dict:  190
+Gain:  0.8
+
+File:  ../../Ponto1/files2/target_0.3kiB.txt  :  307
+Dic:  files/dict_reduced_lenac_32kiB.txt  :  32768
+Original:  307
+Combined:  30122
+Solo dict:  29839
+Normal:  223
+Dict:  283
+Gain:  0.7879858657243817
+
+File:  ../../Ponto1/files2/target_0.4kiB.txt  :  409
+Dic:  files/dict_reduced_lenac_32kiB.txt  :  32768
+Original:  409
+Combined:  30215
+Solo dict:  29839
+Normal:  287
+Dict:  376
+Gain:  0.7632978723404256
+
+File:  ../../Ponto1/files2/target_0.5kiB.txt  :  512
+Dic:  files/dict_reduced_lenac_32kiB.txt  :  32768
+Original:  512
+Combined:  30313
+Solo dict:  29839
+Normal:  356
+Dict:  474
+Gain:  0.7510548523206751
+

@@ -1,0 +1,40 @@
+file:  102
+Dic:  32768
+
+../Ponto1/files2/target_0.1kiB.txt
+Original:  102
+Normal:  95
+Dict:  86
+Gain:  1.1046511627906976
+file:  204
+Dic:  32768
+
+../Ponto1/files2/target_0.2kiB.txt
+Original:  204
+Normal:  152
+Dict:  143
+Gain:  1.062937062937063
+file:  307
+Dic:  32768
+
+../Ponto1/files2/target_0.3kiB.txt
+Original:  307
+Normal:  223
+Dict:  214
+Gain:  1.0420560747663552
+file:  409
+Dic:  32768
+
+../Ponto1/files2/target_0.4kiB.txt
+Original:  409
+Normal:  287
+Dict:  278
+Gain:  1.0323741007194245
+file:  512
+Dic:  32768
+
+../Ponto1/files2/target_0.5kiB.txt
+Original:  512
+Normal:  356
+Dict:  347
+Gain:  1.0259365994236311

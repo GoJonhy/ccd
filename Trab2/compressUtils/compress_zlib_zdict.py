@@ -37,11 +37,11 @@ def main(argv):
     inputFile = open(inputFileName, "rb")
     dictFile = open(dictFileName, "rb")
     fileSize = os.stat(inputFileName).st_size
-    dictSize = os.stat(inputFileName).st_size
+    dictSize = os.stat(dictFileName).st_size
     
     # Ler ficheiros
     fileData = inputFile.read(fileSize)
-    dictData = inputFile.read(dictSize)
+    dictData = dictFile.read(dictSize)
 
     # Simul
     # No dict
@@ -59,11 +59,13 @@ def main(argv):
     compress_gain = compress_normal/compress_dict
 
     # Write output
-    print(inputFileName)
+    print("File: ", inputFileName , " : ", fileSize)
+    print("Dic: ", dictFileName , " : ",  dictSize)
     print("Original: ", fileSize)
     print("Normal: ", compress_normal)
     print("Dict: ", compress_dict)
     print("Gain: ", compress_gain)
+    print("")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,48 @@
+File:  ./files/enron_mail_inbox/1  :  1616
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1616
+Dize Combined:  1694
+Combined:  944
+Solo dict:  86
+Normal:  871
+Dict:  858
+Gain:  1.0151515151515151
+Ratio Normal:  1.8553386911595866
+Ratio Dict:  1.8834498834498834
+
+File:  ./files/enron_mail_inbox/2  :  1813
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1813
+Dize Combined:  1891
+Combined:  1051
+Solo dict:  86
+Normal:  978
+Dict:  965
+Gain:  1.0134715025906735
+Ratio Normal:  1.8537832310838447
+Ratio Dict:  1.8787564766839377
+
+File:  ./files/enron_mail_inbox/3  :  4975
+Dic:  ./heuritic_dict.txt  :  78
+Original:  4975
+Dize Combined:  5053
+Combined:  2375
+Solo dict:  86
+Normal:  2300
+Dict:  2289
+Gain:  1.0048055919615553
+Ratio Normal:  2.1630434782608696
+Ratio Dict:  2.1734381826124944
+
+File:  ./files/enron_mail_inbox/4  :  1868
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1868
+Dize Combined:  1946
+Combined:  1090
+Solo dict:  86
+Normal:  1018
+Dict:  1004
+Gain:  1.0139442231075697
+Ratio Normal:  1.8349705304518664
+Ratio Dict:  1.8605577689243027
+

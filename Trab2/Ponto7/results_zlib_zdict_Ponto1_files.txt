@@ -1,0 +1,49 @@
+File:  ../Ponto1/files/target_0.05kiB.txt  :  51
+Dic:  ./heuritic_dict.txt  :  78
+Original:  51
+Normal:  56
+Dict:  58
+Gain:  0.9655172413793104
+
+File:  ../Ponto1/files/target_0.1kiB.txt  :  102
+Dic:  ./heuritic_dict.txt  :  78
+Original:  102
+Normal:  88
+Dict:  92
+Gain:  0.9565217391304348
+
+File:  ../Ponto1/files/target_0.2kiB.txt  :  204
+Dic:  ./heuritic_dict.txt  :  78
+Original:  204
+Normal:  144
+Dict:  147
+Gain:  0.9795918367346939
+
+File:  ../Ponto1/files/target_0.3kiB.txt  :  307
+Dic:  ./heuritic_dict.txt  :  78
+Original:  307
+Normal:  206
+Dict:  210
+Gain:  0.9809523809523809
+
+File:  ../Ponto1/files/target_0.4kiB.txt  :  409
+Dic:  ./heuritic_dict.txt  :  78
+Original:  409
+Normal:  263
+Dict:  266
+Gain:  0.9887218045112782
+
+File:  ../Ponto1/files/target_0.5kiB.txt  :  512
+Dic:  ./heuritic_dict.txt  :  78
+Original:  512
+Normal:  345
+Dict:  349
+Gain:  0.9885386819484241
+
+File:  ../Ponto1/files/target_1kiB.txt  :  1024
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1024
+Normal:  615
+Dict:  618
+Gain:  0.9951456310679612
+

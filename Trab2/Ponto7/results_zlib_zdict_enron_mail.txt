@@ -1,0 +1,28 @@
+File:  ./files/enron_mail_inbox/1  :  1616
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1616
+Normal:  871
+Dict:  875
+Gain:  0.9954285714285714
+
+File:  ./files/enron_mail_inbox/2  :  1813
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1813
+Normal:  978
+Dict:  982
+Gain:  0.9959266802443992
+
+File:  ./files/enron_mail_inbox/3  :  4975
+Dic:  ./heuritic_dict.txt  :  78
+Original:  4975
+Normal:  2300
+Dict:  2303
+Gain:  0.998697351280938
+
+File:  ./files/enron_mail_inbox/4  :  1868
+Dic:  ./heuritic_dict.txt  :  78
+Original:  1868
+Normal:  1018
+Dict:  1022
+Gain:  0.9960861056751468
+

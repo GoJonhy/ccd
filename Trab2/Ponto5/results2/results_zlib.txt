@@ -1,0 +1,98 @@
+File:  ./input/target_1kiB.txt  :  1024
+Dic:  ./dict2/dict_estimation_32kiB.txt  :  32768
+Original:  1024
+Normal:  591
+Dict:  683
+Gain:  0.8653001464128843
+
+File:  ./input/azores.poi_1kiB.txt  :  1024
+Dic:  ./dict2/dict_azores.poi_estimation.txt  :  1024
+Original:  1024
+Normal:  92
+Dict:  80
+Gain:  1.15
+
+File:  ./input/kodim23.png_1kiB.txt  :  1024
+Dic:  ./dict2/dict_kodim23.png_estimation.txt  :  1024
+Original:  1024
+Normal:  1029
+Dict:  970
+Gain:  1.0608247422680412
+
+File:  ./input/lenac.bmp_1kiB.txt  :  1024
+Dic:  ./dict2/dict_lenac.bmp_estimation.txt  :  1024
+Original:  1024
+Normal:  974
+Dict:  900
+Gain:  1.0822222222222222
+
+File:  ./input/pg1000.txt_1kiB.txt  :  1024
+Dic:  ./dict2/dict_pg1000.txt_estimation.txt  :  1024
+Original:  1024
+Normal:  610
+Dict:  521
+Gain:  1.1708253358925145
+
+File:  ./input/pg3333.txt_1kiB.txt  :  1024
+Dic:  ./dict2/dict_pg3333.txt_estimation.txt  :  1024
+Original:  1024
+Normal:  631
+Dict:  556
+Gain:  1.1348920863309353
+
+File:  ./input/pg3333.html_1kiB.txt  :  1024
+Dic:  ./dict2/dict_pg3333.html_estimation.txt  :  1024
+Original:  1024
+Normal:  659
+Dict:  580
+Gain:  1.1362068965517242
+
+File:  ./input/target_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  591
+Dict:  618
+Gain:  0.9563106796116505
+
+File:  ./input/azores.poi_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  92
+Dict:  123
+Gain:  0.7479674796747967
+
+File:  ./input/kodim23.png_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  1029
+Dict:  1408
+Gain:  0.7308238636363636
+
+File:  ./input/lenac.bmp_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  974
+Dict:  1273
+Gain:  0.7651217596229379
+
+File:  ./input/pg1000.txt_1kiB.txt  :  1024
+Dic:  ./dict2/dict_pg1000.txt_estimation.txt  :  1024
+Original:  1024
+Normal:  610
+Dict:  521
+Gain:  1.1708253358925145
+
+File:  ./input/pg3333.txt_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  631
+Dict:  675
+Gain:  0.9348148148148148
+
+File:  ./input/pg3333.html_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  659
+Dict:  716
+Gain:  0.9203910614525139
+

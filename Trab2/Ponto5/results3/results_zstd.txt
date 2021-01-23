@@ -1,0 +1,61 @@
+File:  ./input/target_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Combined:  14276
+Solo dict:  13688
+Normal:  642
+Dict:  588
+Gain:  1.0918367346938775
+
+File:  ./input/azores.poi_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Combined:  13801
+Solo dict:  13688
+Normal:  100
+Dict:  113
+Gain:  0.8849557522123894
+
+File:  ./input/kodim23.png_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Combined:  14977
+Solo dict:  13688
+Normal:  1026
+Dict:  1289
+Gain:  0.7959658650116369
+
+File:  ./input/lenac.bmp_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Combined:  14847
+Solo dict:  13688
+Normal:  977
+Dict:  1159
+Gain:  0.8429680759275238
+
+File:  ./input/pg1000.txt_1kiB.txt  :  1024
+Dic:  ./dict2/dict_pg1000.txt_estimation.txt  :  1024
+Original:  1024
+Combined:  1124
+Solo dict:  643
+Normal:  670
+Dict:  481
+Gain:  1.392931392931393
+
+File:  ./input/pg3333.txt_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Combined:  14328
+Solo dict:  13688
+Normal:  679
+Dict:  640
+Gain:  1.0609375
+
+File:  ./input/pg3333.html_1kiB.txt  :  1024
+Dic:  ./dicts/dict_pg1000.txt_32kiB.txt  :  32768
+Original:  1024
+Normal:  659
+Dict:  716
+Gain:  0.9203910614525139
+

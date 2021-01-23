@@ -1,63 +1,63 @@
 File:  ../Ponto1/files/target_0.05kiB.txt  :  51
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  51
-Combined:  15304
-Solo dict:  15259
+Combined:  13036
+Solo dict:  12992
 Normal:  60
-Dict:  45
-Gain:  1.3333333333333333
+Dict:  44
+Gain:  1.3636363636363635
 
 File:  ../Ponto1/files/target_0.1kiB.txt  :  102
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  102
-Combined:  15347
-Solo dict:  15259
-Normal:  91
-Dict:  88
-Gain:  1.0340909090909092
+Combined:  13066
+Solo dict:  12992
+Normal:  86
+Dict:  74
+Gain:  1.162162162162162
 
 File:  ../Ponto1/files/target_0.2kiB.txt  :  204
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  204
-Combined:  15428
-Solo dict:  15259
-Normal:  153
-Dict:  169
-Gain:  0.9053254437869822
+Combined:  13132
+Solo dict:  12992
+Normal:  148
+Dict:  140
+Gain:  1.0571428571428572
 
 File:  ../Ponto1/files/target_0.3kiB.txt  :  307
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  307
-Combined:  15520
-Solo dict:  15259
-Normal:  221
-Dict:  261
-Gain:  0.8467432950191571
+Combined:  13219
+Solo dict:  12992
+Normal:  234
+Dict:  227
+Gain:  1.0308370044052864
 
 File:  ../Ponto1/files/target_0.4kiB.txt  :  409
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  409
-Combined:  15610
-Solo dict:  15259
-Normal:  282
-Dict:  351
-Gain:  0.8034188034188035
+Combined:  13254
+Solo dict:  12992
+Normal:  272
+Dict:  262
+Gain:  1.0381679389312977
 
 File:  ../Ponto1/files/target_0.5kiB.txt  :  512
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  512
-Combined:  15710
-Solo dict:  15259
-Normal:  372
-Dict:  451
-Gain:  0.8248337028824834
+Combined:  13348
+Solo dict:  12992
+Normal:  346
+Dict:  356
+Gain:  0.9719101123595506
 
 File:  ../Ponto1/files/target_1kiB.txt  :  1024
 Dic:  ../Ponto3/dict_estimation_32kiB.txt  :  32768
 Original:  1024
-Combined:  16124
-Solo dict:  15259
-Normal:  658
-Dict:  865
-Gain:  0.7606936416184971
+Combined:  13629
+Solo dict:  12992
+Normal:  642
+Dict:  637
+Gain:  1.0078492935635792
 

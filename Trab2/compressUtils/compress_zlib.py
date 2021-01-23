@@ -17,6 +17,7 @@ def indexGenerator(fileSize):
 def main(argv):
     # Leitura de argumentos
     inputFileName = ''
+    dictFileName = None
     try:
         opts, args = getopt.getopt(argv, "hi:d:o", ["ifile", "outsize"])
     except getopt.GetoptError:
@@ -35,51 +36,47 @@ def main(argv):
 
     # Obter dados
     inputFile = open(inputFileName, "rb")
-    dictFile = open(dictFileName, "rb")
+    if(dictFileName == None or dictFileName == "" or dictFileName == "-"):
+        dictFile = b''
+        dictSize = 0
+        dictData = b''
+    else:
+        dictFile = open(dictFileName, "rb")
+        dictSize = os.stat(dictFileName).st_size
+        dictData = dictFile.read(dictSize)
     fileSize = os.stat(inputFileName).st_size
-    dictSize = os.stat(dictFileName).st_size
     
     # Ler ficheiros
     fileData = inputFile.read(fileSize)
-    dictData = dictFile.read(dictSize)
 
     # Simul
     # dict
-    compress = zlib.compressobj()
+    compress = zlib.compressobj(level=9, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=9, strategy=zlib.Z_DEFAULT_STRATEGY)
     compressed_dict = compress.compress(dictData)
     compressed_dict += compress.flush()
     # No dict
-    compress = zlib.compressobj()
+    compress = zlib.compressobj(level=9, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=9, strategy=zlib.Z_DEFAULT_STRATEGY)
     compressed_data = compress.compress(fileData)
     compressed_data += compress.flush()
     # With dict
-    compress = zlib.compressobj()
+    compress = zlib.compressobj(level=9, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=9, strategy=zlib.Z_DEFAULT_STRATEGY)
     combined = dictData + fileData
     compressed_data_with_dict = compress.compress(combined)
     compressed_data_with_dict += compress.flush()
 
     # Resultados
     compress_normal = len(compressed_data) 
-    compress_combined =  len(compressed_data_with_dict) 
-    compress_solo =  len(compressed_dict) 
     compress_dict = len(compressed_data_with_dict) - len(compressed_dict)
     compress_gain = compress_normal/compress_dict
 
-    ratio_normal = fileSize/compress_normal
-    ratio_dict = fileSize/compress_dict
 
     # Write output
     print("File: ", inputFileName , " : ", fileSize)
     print("Dic: ", dictFileName , " : ",  dictSize)
     print("Original: ", fileSize)
-    print("Dize Combined: ", len(combined))
-    print("Combined: ", compress_combined)
-    print("Solo dict: ", compress_solo)
     print("Normal: ", compress_normal)
     print("Dict: ", compress_dict)
     print("Gain: ", compress_gain)
-    print("Ratio Normal: ", ratio_normal)
-    print("Ratio Dict: ", ratio_dict)
     print("")
 
 

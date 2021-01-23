@@ -1,0 +1,45 @@
+File:  ./inputs/0.05-1kib.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Combined:  2081
+Solo dict:  11
+Normal:  2081
+Dict:  2070
+Gain:  1.0053140096618358
+
+File:  ./inputs/1-0.5kib.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Combined:  2074
+Solo dict:  11
+Normal:  2074
+Dict:  2063
+Gain:  1.0053320407174018
+
+File:  ./inputs/ordem3.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Combined:  2086
+Solo dict:  11
+Normal:  2086
+Dict:  2075
+Gain:  1.005301204819277
+
+File:  ./inputs/ordem4.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Combined:  2086
+Solo dict:  11
+Normal:  2086
+Dict:  2075
+Gain:  1.005301204819277
+
+File:  ./inputs/ordem5.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Combined:  2071
+Solo dict:  11
+Normal:  2071
+Dict:  2060
+Gain:  1.0053398058252427
+

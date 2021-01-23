@@ -17,6 +17,7 @@ def indexGenerator(fileSize):
 def main(argv):
     # Leitura de argumentos
     inputFileName = ''
+    dictFileName = None
     try:
         opts, args = getopt.getopt(argv, "hi:d:o", ["ifile", "outsize"])
     except getopt.GetoptError:
@@ -35,21 +36,28 @@ def main(argv):
 
     # Obter dados
     inputFile = open(inputFileName, "rb")
-    dictFile = open(dictFileName, "rb")
+    if(dictFileName == None or dictFileName == "" or dictFileName == "-"):
+        dictFile = b''
+        dictSize = 0
+        dictData = b''
+    else:
+        dictFile = open(dictFileName, "rb")
+        dictSize = os.stat(dictFileName).st_size
+        dictData = dictFile.read(dictSize)
     fileSize = os.stat(inputFileName).st_size
-    dictSize = os.stat(dictFileName).st_size
+    
     
     # Ler ficheiros
     fileData = inputFile.read(fileSize)
-    dictData = dictFile.read(dictSize)
+    
 
     # Simul
     # dict
-    compressed_dict = lz4.frame.compress(dictData)
+    compressed_dict = lz4.frame.compress(dictData, compression_level=16)
     # No dict
-    compressed_data = lz4.frame.compress(fileData)
+    compressed_data = lz4.frame.compress(fileData, compression_level=16)
     # With dict
-    compressed_data_with_dict = lz4.frame.compress(dictData + fileData)
+    compressed_data_with_dict = lz4.frame.compress((dictData + fileData), compression_level=16)
 
     # Resultados
     compress_normal = len(compressed_data) 

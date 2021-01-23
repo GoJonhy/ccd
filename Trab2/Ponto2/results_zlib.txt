@@ -2,83 +2,83 @@ File:  ../Ponto1/files/target_0.05kiB.txt  :  51
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  51
 Dize Combined:  32819
-Combined:  11891
-Solo dict:  11847
-Normal:  56
-Dict:  44
-Gain:  1.2727272727272727
-Ratio Normal:  0.9107142857142857
-Ratio Dict:  1.1590909090909092
+Combined:  11828
+Solo dict:  11783
+Normal:  55
+Dict:  45
+Gain:  1.2222222222222223
+Ratio Normal:  0.9272727272727272
+Ratio Dict:  1.1333333333333333
 
 File:  ../Ponto1/files/target_0.1kiB.txt  :  102
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  102
 Dize Combined:  32870
-Combined:  11934
-Solo dict:  11847
-Normal:  88
-Dict:  87
-Gain:  1.0114942528735633
-Ratio Normal:  1.1590909090909092
-Ratio Dict:  1.1724137931034482
+Combined:  11858
+Solo dict:  11783
+Normal:  79
+Dict:  75
+Gain:  1.0533333333333332
+Ratio Normal:  1.2911392405063291
+Ratio Dict:  1.36
 
 File:  ../Ponto1/files/target_0.2kiB.txt  :  204
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  204
 Dize Combined:  32972
-Combined:  11997
-Solo dict:  11847
-Normal:  144
-Dict:  150
-Gain:  0.96
-Ratio Normal:  1.4166666666666667
-Ratio Dict:  1.36
+Combined:  11927
+Solo dict:  11783
+Normal:  140
+Dict:  144
+Gain:  0.9722222222222222
+Ratio Normal:  1.457142857142857
+Ratio Dict:  1.4166666666666667
 
 File:  ../Ponto1/files/target_0.3kiB.txt  :  307
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  307
 Dize Combined:  33075
-Combined:  12080
-Solo dict:  11847
-Normal:  206
-Dict:  233
-Gain:  0.8841201716738197
-Ratio Normal:  1.4902912621359223
-Ratio Dict:  1.3175965665236051
+Combined:  12028
+Solo dict:  11783
+Normal:  209
+Dict:  245
+Gain:  0.8530612244897959
+Ratio Normal:  1.4688995215311005
+Ratio Dict:  1.2530612244897958
 
 File:  ../Ponto1/files/target_0.4kiB.txt  :  409
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  409
 Dize Combined:  33177
-Combined:  12159
-Solo dict:  11847
-Normal:  263
-Dict:  312
-Gain:  0.842948717948718
-Ratio Normal:  1.5551330798479088
-Ratio Dict:  1.310897435897436
+Combined:  12068
+Solo dict:  11783
+Normal:  249
+Dict:  285
+Gain:  0.8736842105263158
+Ratio Normal:  1.642570281124498
+Ratio Dict:  1.4350877192982456
 
 File:  ../Ponto1/files/target_0.5kiB.txt  :  512
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  512
 Dize Combined:  33280
-Combined:  12257
-Solo dict:  11847
-Normal:  345
-Dict:  410
-Gain:  0.8414634146341463
-Ratio Normal:  1.4840579710144928
-Ratio Dict:  1.248780487804878
+Combined:  12161
+Solo dict:  11783
+Normal:  324
+Dict:  378
+Gain:  0.8571428571428571
+Ratio Normal:  1.5802469135802468
+Ratio Dict:  1.3544973544973544
 
 File:  ../Ponto1/files/target_1kiB.txt  :  1024
 Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
 Original:  1024
 Dize Combined:  33792
-Combined:  12584
-Solo dict:  11847
-Normal:  615
-Dict:  737
-Gain:  0.8344640434192673
-Ratio Normal:  1.665040650406504
-Ratio Dict:  1.389416553595658
+Combined:  12479
+Solo dict:  11783
+Normal:  591
+Dict:  696
+Gain:  0.8491379310344828
+Ratio Normal:  1.7326565143824026
+Ratio Dict:  1.471264367816092
 

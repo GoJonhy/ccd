@@ -1,0 +1,49 @@
+File:  ../Ponto5/input/azores.poi_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  100
+Dict:  72
+Gain:  1.3888888888888888
+
+File:  ../Ponto5/input/kodim23.png_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  1026
+Dict:  93
+Gain:  11.03225806451613
+
+File:  ../Ponto5/input/lenac.bmp_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  977
+Dict:  121
+Gain:  8.074380165289256
+
+File:  ../Ponto5/input/pg1000.txt_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  670
+Dict:  80
+Gain:  8.375
+
+File:  ../Ponto5/input/pg3333.html_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  719
+Dict:  645
+Gain:  1.1147286821705427
+
+File:  ../Ponto5/input/pg3333.txt_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  679
+Dict:  144
+Gain:  4.715277777777778
+
+File:  ../Ponto5/input/target_1kiB.txt  :  1024
+Dic:  ./dict/dictionary2  :  5855
+Original:  1024
+Normal:  642
+Dict:  560
+Gain:  1.1464285714285714
+

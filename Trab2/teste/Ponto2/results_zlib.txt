@@ -1,0 +1,49 @@
+File:  ../Ponto1/files/target_0.05kiB.txt  :  51
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  51
+Normal:  58
+Dict:  47
+Gain:  1.2340425531914894
+
+File:  ../Ponto1/files/target_0.1kiB.txt  :  102
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  102
+Normal:  93
+Dict:  91
+Gain:  1.021978021978022
+
+File:  ../Ponto1/files/target_0.2kiB.txt  :  204
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  204
+Normal:  155
+Dict:  179
+Gain:  0.8659217877094972
+
+File:  ../Ponto1/files/target_0.3kiB.txt  :  307
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  307
+Normal:  219
+Dict:  261
+Gain:  0.8390804597701149
+
+File:  ../Ponto1/files/target_0.4kiB.txt  :  409
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  409
+Normal:  289
+Dict:  352
+Gain:  0.8210227272727273
+
+File:  ../Ponto1/files/target_0.5kiB.txt  :  512
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  512
+Normal:  383
+Dict:  461
+Gain:  0.8308026030368764
+
+File:  ../Ponto1/files/target_1kiB.txt  :  1024
+Dic:  ../Ponto1/dict_reduced_32kiB.txt  :  32768
+Original:  1024
+Normal:  684
+Dict:  850
+Gain:  0.8047058823529412
+

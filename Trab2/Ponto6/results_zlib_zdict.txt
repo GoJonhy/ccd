@@ -1,0 +1,35 @@
+File:  ./inputs/0.05-1kib.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Normal:  1360
+Dict:  1360
+Gain:  1.0
+
+File:  ./inputs/1-0.5kib.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Normal:  1364
+Dict:  1364
+Gain:  1.0
+
+File:  ./inputs/ordem3.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Normal:  1371
+Dict:  1371
+Gain:  1.0
+
+File:  ./inputs/ordem4.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Normal:  1373
+Dict:  1373
+Gain:  1.0
+
+File:  ./inputs/ordem5.txt  :  2609
+Dic:  None  :  0
+Original:  2609
+Normal:  1364
+Dict:  1364
+Gain:  1.0
+

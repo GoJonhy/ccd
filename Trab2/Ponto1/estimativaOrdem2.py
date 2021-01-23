@@ -17,7 +17,7 @@ def main(argv):
     inputFileName = ''
     size = 6
     try:
-        opts, args = getopt.getopt(argv, "hi:s::", ["ifile", "outsize"])
+        opts, args = getopt.getopt(argv, "hi:s:", ["ifile", "outsize"])
     except getopt.GetoptError:
         print("fileEntropy.py -i <inputfile>")
         sys.exit(2)

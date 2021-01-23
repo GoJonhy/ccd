@@ -17,6 +17,7 @@ def indexGenerator(fileSize):
 def main(argv):
     # Leitura de argumentos
     inputFileName = ''
+    dictFileName = None
     try:
         opts, args = getopt.getopt(argv, "hi:d:o", ["ifile", "outsize"])
     except getopt.GetoptError:
@@ -35,21 +36,26 @@ def main(argv):
 
     # Obter dados
     inputFile = open(inputFileName, "rb")
-    dictFile = open(dictFileName, "rb")
+    if(dictFileName == None or dictFileName == "" or dictFileName == "-"):
+        dictFile = b''
+        dictSize = 0
+        dictData = b''
+    else:
+        dictFile = open(dictFileName, "rb")
+        dictSize = os.stat(dictFileName).st_size
+        dictData = dictFile.read(dictSize)
     fileSize = os.stat(inputFileName).st_size
-    dictSize = os.stat(dictFileName).st_size
     
     # Ler ficheiros
     fileData = inputFile.read(fileSize)
-    dictData = dictFile.read(dictSize)
 
     # Simul
     # No dict
-    compress = zlib.compressobj(level=zlib.Z_DEFAULT_COMPRESSION, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=zlib.DEF_MEM_LEVEL, strategy=zlib.Z_DEFAULT_STRATEGY)
+    compress = zlib.compressobj(level=9, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=9, strategy=zlib.Z_DEFAULT_STRATEGY)
     compressed_data = compress.compress(fileData)
     compressed_data += compress.flush()
     # With dict
-    compress = zlib.compressobj(level=zlib.Z_DEFAULT_COMPRESSION, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=zlib.DEF_MEM_LEVEL, strategy=zlib.Z_DEFAULT_STRATEGY, zdict=dictData)
+    compress = zlib.compressobj(level=9, method=zlib.DEFLATED, wbits=zlib.MAX_WBITS, memLevel=9, strategy=zlib.Z_DEFAULT_STRATEGY, zdict=dictData)
     compressed_data_with_dict = compress.compress(fileData)
     compressed_data_with_dict += compress.flush()
 

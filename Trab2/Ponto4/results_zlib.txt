@@ -1,25 +1,84 @@
-../Ponto1/files2/target_0.1kiB.txt
+File:  ../Ponto1/files/target_0.05kiB.txt  :  51
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
+Original:  51
+Dize Combined:  32819
+Combined:  14237
+Solo dict:  14198
+Normal:  55
+Dict:  39
+Gain:  1.4102564102564104
+Ratio Normal:  0.9272727272727272
+Ratio Dict:  1.3076923076923077
+
+File:  ../Ponto1/files/target_0.1kiB.txt  :  102
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
 Original:  102
-Normal:  90
-Dict:  82
-Gain:  1.0975609756097562
-../Ponto1/files2/target_0.2kiB.txt
+Dize Combined:  32870
+Combined:  14266
+Solo dict:  14198
+Normal:  79
+Dict:  68
+Gain:  1.161764705882353
+Ratio Normal:  1.2911392405063291
+Ratio Dict:  1.5
+
+File:  ../Ponto1/files/target_0.2kiB.txt  :  204
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
 Original:  204
-Normal:  143
-Dict:  135
-Gain:  1.0592592592592593
-../Ponto1/files2/target_0.3kiB.txt
+Dize Combined:  32972
+Combined:  14327
+Solo dict:  14198
+Normal:  140
+Dict:  129
+Gain:  1.0852713178294573
+Ratio Normal:  1.457142857142857
+Ratio Dict:  1.5813953488372092
+
+File:  ../Ponto1/files/target_0.3kiB.txt  :  307
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
 Original:  307
-Normal:  205
-Dict:  197
-Gain:  1.0406091370558375
-../Ponto1/files2/target_0.4kiB.txt
+Dize Combined:  33075
+Combined:  14408
+Solo dict:  14198
+Normal:  209
+Dict:  210
+Gain:  0.9952380952380953
+Ratio Normal:  1.4688995215311005
+Ratio Dict:  1.4619047619047618
+
+File:  ../Ponto1/files/target_0.4kiB.txt  :  409
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
 Original:  409
-Normal:  270
-Dict:  262
-Gain:  1.0305343511450382
-../Ponto1/files2/target_0.5kiB.txt
+Dize Combined:  33177
+Combined:  14451
+Solo dict:  14198
+Normal:  249
+Dict:  253
+Gain:  0.9841897233201581
+Ratio Normal:  1.642570281124498
+Ratio Dict:  1.616600790513834
+
+File:  ../Ponto1/files/target_0.5kiB.txt  :  512
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
 Original:  512
-Normal:  336
-Dict:  328
-Gain:  1.024390243902439
+Dize Combined:  33280
+Combined:  14531
+Solo dict:  14198
+Normal:  324
+Dict:  333
+Gain:  0.972972972972973
+Ratio Normal:  1.5802469135802468
+Ratio Dict:  1.5375375375375375
+
+File:  ../Ponto1/files/target_1kiB.txt  :  1024
+Dic:  ./files/dict_reduced_32kiB.txt  :  32768
+Original:  1024
+Dize Combined:  33792
+Combined:  14816
+Solo dict:  14198
+Normal:  591
+Dict:  618
+Gain:  0.9563106796116505
+Ratio Normal:  1.7326565143824026
+Ratio Dict:  1.656957928802589
+

@@ -2,70 +2,55 @@
 
 import sys, getopt, os, secrets
 import math
+from integer import Integer
+from operator import itemgetter
+import math
 
-import lz4.frame
-
-# Posiçao de procura. Corresponde ao
-def indexGenerator(fileSize):
-    max = (fileSize-1)
-    def generator():
-        while True: 
-            yield secrets.randbelow(max) 
-    return generator
-
-def lerBytes(fileSize,inputFile,byteDict ,seqSize,stdout):
-    nextIndex = indexGenerator(fileSize)()
-    curByte, nextByte = None, None
+def lerBytes(filePath :str,byteDict :dict , seqSize :int):
+    inputFileSize = os.stat(filePath).st_size
+    inputFile = open(filePath, "rb")
+    curSize=0
+    curByte = None
     curSeqSize=0
-    seq = ''
+    seq = None
     while True:
-        # Encontrar e escrever primeiro
-        index = next(nextIndex)
-        inputFile.seek(index)
+        if( curSize >= inputFileSize):
+            break
         curByte = inputFile.read(1)
-        outputSize = 0
-        # Verifica se Byte existe no dicionario
-        
-        if (curSeqSize<=seqSize):
-            seq+=str(curByte)
-            curSeqSize+=1
+        curSize+=1
+        if seq == None:
+            seq=curByte
         else:
-            curSeqSize=0
+            seq.join([seq,curByte])
+        curSeqSize+=1
+        # Verifica se Byte existe no dicionario
+        if (curSeqSize == seqSize):
             symbol = byteDict.get(seq)
             if symbol == None:
                 byteDict.update([(seq, 1)])
             else:
                 symbol += 1
-            byteDict.update([(seq, symbol)])
+                byteDict.update([(seq, symbol)])
+            seq = None
+            curSeqSize=0
 
-        # Avançar estado de leitura
+def createHeuristicDict(byteDict :dict,outputFileSize :int,stdout):
+    outputSize=0
+    # Organizar lista   
+    sortedByteDict = {k: v for k, v in sorted(byteDict.items(), key=itemgetter(1))}.items()
+    # Avançar estado de leitura
+    for key, value in sortedByteDict:
         outputSize += 1
-        cur = inputFile.tell()
-        #if( outputSize >= fileSize or cur > fileSize):
-
-        # Encontrar proxima ocorrencia e registar seu seguinte se existir
-        #while True:
-        #    nextByte = inputFile.read(1)
-        #    if(nextByte == curByte):
-        #        stdout.write(nextByte)
-        #        outputSize += 1
-        #        break
-        #    cur = inputFile.tell()
-        #    if(cur >= fileSize):
-        #        nextByte == None
-        #        break
-
+        stdout.write(key)
         # Verificar dimensao de saida
-        if( outputSize >= fileSize):
-            break
+        if( outputSize >= outputFileSize):
+            return
+    
+        
 
 # Main 
 def main(argv):
     # Leitura de argumentos
-    inputFileDir = ''
-    size=1
-    seqSize=1
-    fileSize = int(size * 1024)
     try:
         opts, args = getopt.getopt(argv, "hi:s::", ["ifile", "outsize"])
     except getopt.GetoptError:
@@ -79,19 +64,17 @@ def main(argv):
             inputFileDir = arg
         elif opt in ("-s", "--outsize"):
             size = float(arg)
-
-    # Obter dados
+    # Global Variables
+    seqSize=4
     fileList=os.listdir(inputFileDir)
-    bytesdict = dict()
     stdout = os.fdopen(sys.stdout.fileno(), 'wb')
-    for file in fileList :
+    byteDict = dict()
+    outputFileSize=32768
+    # Obter dados
+    for file in fileList:
         filePath=inputFileDir+'/'+file
-        inputFile = open(filePath, "rb")
-        fileSize = os.stat(filePath).st_size
-        #fileData = inputFile.read(fileSize)
-        lerBytes(fileSize,inputFile,bytesdict,seqSize,stdout)
-    
-
+        lerBytes(filePath,byteDict,seqSize)
+    createHeuristicDict(byteDict,outputFileSize,stdout)
 
 if __name__ == "__main__":
    main(sys.argv[1:])

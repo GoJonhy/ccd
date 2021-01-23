@@ -41,20 +41,19 @@ def lerBytes(fileSize,inputFile,byteDict ,seqSize,stdout):
         # Avançar estado de leitura
         outputSize += 1
         cur = inputFile.tell()
-        if( outputSize >= fileSize or cur > fileSize):
-            break
+        #if( outputSize >= fileSize or cur > fileSize):
 
         # Encontrar proxima ocorrencia e registar seu seguinte se existir
-        while True:
-            nextByte = inputFile.read(1)
-            if(nextByte == curByte):
-                stdout.write(nextByte)
-                outputSize += 1
-                break
-            cur = inputFile.tell()
-            if(cur >= fileSize):
-                nextByte == None
-                break
+        #while True:
+        #    nextByte = inputFile.read(1)
+        #    if(nextByte == curByte):
+        #        stdout.write(nextByte)
+        #        outputSize += 1
+        #        break
+        #    cur = inputFile.tell()
+        #    if(cur >= fileSize):
+        #        nextByte == None
+        #        break
 
         # Verificar dimensao de saida
         if( outputSize >= fileSize):
